@@ -1,0 +1,18 @@
+{
+  "name": "lingoquest-ar-v4",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "description": "LingoQuest V4, Arabic-first gamified English learning site, dependency-free Node server",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build.mjs",
+    "preview": "node server.mjs --dist",
+    "check:syntax": "node --check app.js && node --check content.js && node --check adventure-content.js && node --check server.mjs && node --check build.mjs",
+    "test": "node validate-content.mjs && node validate-adventure.mjs && node test-flow.mjs",
+    "check": "npm run check:syntax && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "LingoQuest | مغامرة إنجليش",
+  "description": "موقع عربي تفاعلي لتعلم الإنجليزية من الحروف إلى القصص والمحادثات؛ V4",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
